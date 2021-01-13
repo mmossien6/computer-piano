@@ -1,6 +1,4 @@
-/* FINAL PROJECT: COMPUTER PIANO PLAYER
- * by Rahul Narain and Mark Mossien
- * 
+/* COMPUTER PIANO PLAYER
  * MAIN CLASS
  * - This class initializes the graphics window used and creates all of the buttons
  * used for both screens in the program.
@@ -11,7 +9,7 @@ import java.io.IOException;
 
 import javax.swing.JButton;
 
-public class FinalProjectMain {
+public class Main {
 	public static void main(String[] args) throws IOException {
 		GraphicsWindow mainStaff = new GraphicsWindow("Piano.png", true);
 		addStaffButtons(mainStaff);
